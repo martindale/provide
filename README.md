@@ -28,12 +28,12 @@ app.listen(3000);
 
 ### Results
 ```
-> curl http://localhost:3000/thing
+> curl -H "Accept: application/json"  http://localhost:3000/thing
 {"foo": "bar"}
 ```
 Requesting an HTML version of that "thing" will give you exactly that:
 ```
-> curl -H "Accept: text/html" http://localhost:9200/thing
+> curl -H "Accept: text/html" http://localhost:3000/thing
 <!DOCTYPE html>
 <html>
 ...
