@@ -1,0 +1,22 @@
+{
+  "name": "provide",
+  "version": "0.1.0",
+  "description": "Middleware for \"providing\" resources from controllers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/martindale/provide.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Eric Martindale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martindale/provide/issues"
+  },
+  "homepage": "https://github.com/martindale/provide"
+}
